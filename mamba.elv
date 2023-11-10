@@ -34,7 +34,7 @@
 use str
 use re
 use path
-use cmds #= my utility module
+use github.com/LaurentFough/elvish-modules-iandol/cmds #= my utility module
 
 var root = $E:HOME/micromamba # can be reassigned after module load
 var envs = $root/envs
